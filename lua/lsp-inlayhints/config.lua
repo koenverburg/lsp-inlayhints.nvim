@@ -16,7 +16,7 @@ local function setInlayHintHL()
     background = ""
   end
 
-  vim.api.nvim_set_hl(0, "LspInlayHint", { fg = foreground, bg = background })
+  vim.api.nvim_set_hl(0, "LspInlayHint", { fg = foreground, bg = "" })
 end
 
 local config = {
